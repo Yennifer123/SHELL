@@ -1,2 +1,2 @@
 #!/bin/bash
-chown hostinger hello
+chown :school hello
