@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R vincent:staff shell
+chgrp -R vincent:staff shell
