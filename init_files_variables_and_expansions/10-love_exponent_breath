@@ -1,2 +1,2 @@
 #!/bin/bash
-sum=$(($BREATH + $LOVE))
+echo $(($BREATH+$LOVE))
