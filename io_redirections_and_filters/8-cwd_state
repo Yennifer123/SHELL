@@ -1,19 +1,2 @@
 #!/bin/bash
-echo -i "total 56
-drwxrwxr-x 2 yennifer yennifer 4096 jun  6 16:31  .
-drwxrwxr-x 6 yennifer yennifer 4096 jun  6 11:21  ..
--rwxrw-r-- 1 yennifer yennifer   30 jun  6 12:01  0-hello_world
--rwxrw-r-- 1 yennifer yennifer   28 jun  6 13:34  1-confused_smiley
--rwxrw-r-- 1 yennifer yennifer   28 jun  6 13:40  2-hellofile
--rwxrw-r-- 1 yennifer yennifer   39 jun  6 13:59  3-twofiles
--rwxrw-r-- 1 yennifer yennifer   35 jun  6 14:05  4-lastlines
--rwxrw-r-- 1 yennifer yennifer   35 jun  6 14:12  5-firstlines
--rwxrw-r-- 1 yennifer yennifer   36 jun  6 15:33  6-third_line
--rwxrw-r-- 1 yennifer yennifer   86 jun  6 16:07  7-file
--rwxrw-r-- 1 yennifer yennifer    0 jun  6 16:17  8-cwd_state
--rw-rw-r-- 1 yennifer yennifer   38 jun  6 15:58 '\*\'\''Best'
--rw-rw-r-- 1 yennifer yennifer   12 jun  6 16:07 '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'
--rw-rw-r-- 1 yennifer yennifer  801 jun  6 14:50  iacta
--rw-rw-r-- 1 yennifer yennifer    0 jun  6 16:31  ls_cwd_content
--rw-rw-r-- 1 yennifer yennifer   25 jun  6 11:23  README.md >" ls_cwd_content
-
+ls -la > ls_cwd_content
