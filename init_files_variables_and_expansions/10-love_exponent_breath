@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $sum='expr $BREA + $LOVE'
+$sum='expr $BREA + $LOVE'
