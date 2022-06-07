@@ -1,2 +1,2 @@
 #!/bin/bash
-$sum='expr $BREA + $LOVE'
+sum=$(($BREATH + $LOVE))
