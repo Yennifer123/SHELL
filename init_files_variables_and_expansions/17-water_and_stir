@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | grep -nE "*" | grep [1,3,5,7,9]: | cut -d ":" -f2
+echo $(($WATER+$STIR)) | tr water 01234 | tr stir 01234 | tr bestchol 01234
