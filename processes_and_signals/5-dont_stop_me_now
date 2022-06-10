@@ -1,9 +1,3 @@
 #!/usr/bin/env bash
 #script use kill
-i=0
-while [ $i -le 1 ]; 
-do 
-	echo "To infinity and beyond"
-	sleep 2
-	pkill -x bash
-done
+pkill -x bash	
