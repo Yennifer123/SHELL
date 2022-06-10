@@ -3,5 +3,5 @@
 passwd="/etc/passwd"
 while file -r line;
 do
-echo "$line" | cut -d ":" -f 1,3,6
-done < passwd
+	echo "${LINE}" | cut -d ":" -f 1,3,6
+done < "$passwd"
