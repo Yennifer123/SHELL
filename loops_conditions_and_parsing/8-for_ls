@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #must use the for loop
 LIST="$(ls)"
-for file in "$LIST"
+for file in $LIST
 do
 	echo "${file}" | cut -d "-" -f 2
 done
