@@ -21,5 +21,5 @@ touch /var/run/my_process.pid
 hi=$(pgrep -f /var/run/my_process.pid)
 $hi >> /var/run/my_process.pid
 echo "manage_my_process restarted"
-else echo "Usage: manage_my_process {start|stop|restar}"
+else echo "Usage: manage_my_process {start|stop|restart}"
 fi
