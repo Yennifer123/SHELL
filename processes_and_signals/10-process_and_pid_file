@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#
+#pid and sigterm
 touch /var/run/myscript.pid
 hi=$(pgrep -f /var/run/myscript.pid)
-$hi > /var/run/myscript.pid
+$hi >> /var/run/myscript.pid
 
 i=0
 while [ $i -le 1 ]; 
