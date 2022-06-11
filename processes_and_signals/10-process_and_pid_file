@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
-#PID file
-dir(){
- 	rm -f /var/run/myscript.pid
-exit
-}
+#
+touch /var/run/myscript.pid
+hi=$(pgrep -f /var/run/myscript.pid)
+$hi > /var/run/myscript.pid
 
-trap "echo I hate the kill command;dir" SIGTERM
-trap "echo Y U no love me?!;dir" SIGINT
- echo $$ >> var/run/myscript.pid
 i=0
-while [ $i -eq 1 ]; do
-	echo " To infinity and beyond"
+while [ $i -le 1 ]; 
+do
+        echo "To infinity and beyond"
+        trap "echo 'I hate the kill command'" SIGTERM 
+	trap "echo 'Y U no love me?!'" SIGINT
+	trap "rm /var/run/myscript.pid" SIGQUIT SIGTERM
+	trap "break" SIGQUIT SIGTERM
 done
+
